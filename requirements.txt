@@ -1,0 +1,5 @@
+Flask
+prometheus_flask_exporter
+flask-sqlalchemy
+psycopg[binary,pool]
+PyMySQL[rsa]

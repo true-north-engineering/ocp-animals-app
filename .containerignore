@@ -1,0 +1,4 @@
+Containerfile
+venv
+__*
+*.pyc
