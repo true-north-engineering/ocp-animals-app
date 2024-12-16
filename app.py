@@ -23,7 +23,7 @@ class Type(db.Model):
   __tablename__ = 'types'
 
   id = db.Column(db.Integer, primary_key=True)
-  type = db.Column(db.String())
+  type = db.Column(db.String(128))
 
   def __init__(self, type):
     self.type = type
@@ -35,7 +35,7 @@ class Name(db.Model):
   __tablename__ = 'names'
 
   id = db.Column(db.Integer, primary_key=True)
-  name = db.Column(db.String())
+  name = db.Column(db.String(128))
 
   def __init__(self, name):
     self.name = name
